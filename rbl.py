@@ -15,7 +15,7 @@ _BANK_NAME = 'RBL Bank'
 _BB_URL = 'https://www.bankbazaar.com/fixed-deposit/rbl-bank-fixed-deposit-rate.html'
 r = requests.get(_BB_URL)
 soup = BeautifulSoup(r.text.encode('utf-8'),"html.parser")
-header = ['bank_name','from_period','from_period_d_m_y','from_period_operator','to_period','to_period_d_m_y','to_period_operator','general_roi','senior_roi']
+header = ['bank_name','from_period','from_period_d_m_y','from_period_operator','to_period','to_period_d_m_y','to_period_operator','min_amount','max_amount','premature_y_n','general_roi','senior_roi']
 appendtocsv(header)
 #for table_row in soup.select("table table table-curved tr"):
 for table_row in soup.find('table', attrs={'class':'table table-curved'}).find('tbody').find_all('tr'):
