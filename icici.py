@@ -103,20 +103,20 @@ class ICICIInterest:
                 file.write('\n')
     def start(self):
         #Insert Header
-        header = ['bank_namself.e', 'old_or_new', 'deposit', 'deposit_name', 'from_year', 'from_period', 'from_period_d_m_y',
+        header = ['bank_name', 'old_or_new', 'deposit', 'deposit_name', 'from_year', 'from_period', 'from_period_d_m_y',
                   'from_period_operator',
                   'to_year', 'to_period', 'to_period_d_m_y', 'to_period_operator', 'min_amount', 'max_amount', 'premature_y_n',
                   'general_roi', 'senior_roi']
         self.appendtocsv(header)
         # Insert Saving Deposit Interests
-        each_row = [self._BANK_NAME, 'NEW', 'SB', 'Regular Saving Deposit', '04-06-2020', '', '',
+        each_row = [self._BANK_NAME, 'NEW', 'SB', 'Regular Saving Deposit', '04-06-2020', '', 'Q',
                     '', '',
-                    '', '',
+                    '', 'Q',
                     '', 1, 5000000, '', 3, 3]
         self.appendtocsv(each_row)
-        each_row = [self._BANK_NAME, 'NEW', 'SB', 'Regular Saving Deposit', '04-06-2020', '', '',
+        each_row = [self._BANK_NAME, 'NEW', 'SB', 'Regular Saving Deposit', '04-06-2020', '', 'Q',
                     '', '',
-                    '', '',
+                    '', 'Q',
                     '', 5000000, 99999999999, '', 3.5, 3.5]
         self.appendtocsv(each_row)
 
