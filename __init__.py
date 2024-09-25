@@ -1,7 +1,7 @@
 from icici import ICICIInterest
 from postoffice import PostOfficeInterest
 from rbl import RBLInterest
-refresh = True
+refresh = False
 rates_file_name = "rates_list.csv"
 if refresh:
     open(rates_file_name, 'w').close()

@@ -1,6 +1,6 @@
-bank_namself.e,old_or_new,deposit,deposit_name,from_year,from_period,from_period_d_m_y,from_period_operator,to_year,to_period,to_period_d_m_y,to_period_operator,min_amount,max_amount,premature_y_n,general_roi,senior_roi
-ICICI,NEW,SB,Regular Saving Deposit,04-06-2020,,,,,,,,1,5000000,,3,3
-ICICI,NEW,SB,Regular Saving Deposit,04-06-2020,,,,,,,,5000000,99999999999,,3.5,3.5
+bank_name,old_or_new,deposit,deposit_name,from_year,from_period,from_period_d_m_y,from_period_operator,to_year,to_period,to_period_d_m_y,to_period_operator,min_amount,max_amount,premature_y_n,general_roi,senior_roi
+ICICI,NEW,SB,Regular Saving Deposit,04-06-2020,,Q,,,,Q,,1,5000000,,3,3
+ICICI,NEW,SB,Regular Saving Deposit,04-06-2020,,Q,,,,Q,,5000000,99999999999,,3.5,3.5
 ICICI,NEW,FD,Regular Fixed Deposit,13-09-2024,7,D,GE,,29,D,LE,10000,30000000,Y,3.0,3.0
 ICICI,NEW,FD,Regular Fixed Deposit,13-09-2024,7,D,GE,,29,D,LE,10000,30000000,Y,3.5,3.5
 ICICI,NEW,FD,Regular Fixed Deposit,13-09-2024,7,D,GE,,29,D,LE,10000,30000000,N,3.0,3.0
@@ -331,7 +331,6 @@ ICICI,NEW,RD,Regular Recurring Deposit,02-08-2024,33,M,GE,,33,M,LE,500,1000000,N
 ICICI,NEW,RD,Regular Recurring Deposit,02-08-2024,36,M,GE,,36,M,LE,500,1000000,N,7.00,7.50
 ICICI,NEW,RD,Regular Recurring Deposit,02-08-2024,3,Y,GE,,5,Y,LT,500,1000000,N,7.00,7.50
 ICICI,NEW,RD,Regular Recurring Deposit,02-08-2024,5,Y,GE,,10,Y,LT,500,1000000,N,6.90,7.40
-bank_name,old_or_new,deposit,deposit_name,from_year,from_period,from_period_d_m_y,from_period_operator,to_year,to_period,to_period_d_m_y,to_period_operator,min_amount,max_amount,premature_y_n,general_roi,senior_roi
 Post Office,OLD,SB,Post Office Savings Account,01-04-1981,,,GE,31-12-1998,,,LE,,,,5.5,5.75
 Post Office,OLD,SB,Post Office Savings Account,01-01-1999,,,GE,28-02-2001,,,LE,,,,4.5,4.75
 Post Office,OLD,SB,Post Office Savings Account,01-03-2001,,,GE,30-11-2011,,,LE,,,,3.5,3.75
@@ -580,3 +579,31 @@ Post Office,NEW,TD,National Savings Time Deposit Account,01-01-2024,3,Y,GE,31-03
 Post Office,NEW,TD,National Savings Time Deposit Account,01-01-2024,5,Y,GE,31-03-2024,5,Y,LE,,,,7.5,7.75
 Post Office,NEW,MIS,National Savings Monthly Income Account,01-01-2024,,,GE,31-03-2025,,,LE,,,,7.4,7.65
 Post Office,NEW,SCSS,Senior Citizens Savings Scheme Account,01-01-2024,,,GE,31-03-2025,,,LE,,,,8.2,8.45
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,1,100000.0,N,3.75,3.75
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,1,100000.0,N,3.50,3.50
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,100001.0,1000000.0,N,5.50,5.50
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,100001.0,1000000.0,N,5.50,5.50
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,1000001.0,2500000.0,N,6.00,6.00
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,1000001.0,2500000.0,N,6.00,6.00
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,2500001.0,20000000.0,N,7.50,7.50
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,2500001.0,20000000.0,N,7.50,7.50
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,20000001.0,30000000.0,N,7.50,7.50
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,20000001.0,30000000.0,N,7.50,7.50
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,30000001.0,999999999999999,N,6.50,6.50
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,30000001.0,999999999999999,N,6.50,6.50
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,75000001.0,999999999999999,N,6.25,6.25
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,75000001.0,999999999999999,N,6.25,6.25
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,250000001.0,999999999999999,N,6.25,6.25
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,250000001.0,999999999999999,N,6.25,6.25
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,500000001.0,999999999999999,N,5.25,5.25
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,500000001.0,999999999999999,N,5.25,5.25
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,750000001.0,999999999999999,N,7.75,7.75
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,750000001.0,999999999999999,N,7.75,7.75
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,1000000001.0,999999999999999,N,7.75,7.75
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,1000000001.0,999999999999999,N,7.75,7.75
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,1250000001.0,999999999999999,N,6.00,6.00
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,1250000001.0,999999999999999,N,6.00,6.00
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,2000000001.0,999999999999999,N,4.00,4.00
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,2000000001.0,999999999999999,N,4.00,4.00
+RBL Bank,OLD,SB,Savings Account,,,,,30-09-2024,,,LE,4000000001.0,999999999999999,N,6.75,6.75
+RBL Bank,NEW,RD,Regular Recurring Deposit,01-10-2024,,,GE,,,,,4000000001.0,999999999999999,N,6.75,6.75
